@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { Steps } from './core/enums/steps';
+import { IQuestion } from './core/models/question';
 import { QuestionsService } from './core/services/questions.service';
+import { StepsService } from './core/services/steps.service';
 
 @Component({
   selector: 'app-root',
@@ -8,14 +11,27 @@ import { QuestionsService } from './core/services/questions.service';
 })
 export class AppComponent implements OnInit {
   title = 'pmd-intro-quizz';
-  constructor(public questionsService: QuestionsService) {}
+  questions: IQuestion[] = [];
+  Steps = Steps;
+  currentStep$ = this.stepsService.currentStep$;
+
+  constructor(
+    public questionsService: QuestionsService,
+    public stepsService: StepsService
+  ) {}
 
   ngOnInit(): void {
-    //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
-    //Add 'implements OnInit' to the class.
-    this.questionsService.getData().then((res) => {
-      console.log(res);
-    });
+    this.questionsService
+      .getQuestionsByLangage()
+      .then((questions) => {
+        this.questions = questions;
+      })
+      .catch((err) => console.log(err));
+  }
+
+  emitButton(event: string) {
+    console.log('functioncall', event);
+    this.stepsService.changeStep(Steps.Result);
   }
 
   // playAudio() {

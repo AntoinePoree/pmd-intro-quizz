@@ -6,14 +6,9 @@ import { IQuestion } from '../models/question';
   providedIn: 'root',
 })
 export class QuestionsService {
-  private questions: Promise<IQuestion[]> = import(
-    `../../../assets/lang/${this.locale}/questions.json`
-  );
-  constructor(@Inject(LOCALE_ID) public locale: string) {
-    console.log(this.questions);
-  }
+  constructor(@Inject(LOCALE_ID) public locale: string) {}
 
-  getData() {
-    return this.questions;
+  getQuestionsByLangage(): Promise<IQuestion[]> {
+    return import(`../../../assets/lang/${this.locale}/questions.json`);
   }
 }

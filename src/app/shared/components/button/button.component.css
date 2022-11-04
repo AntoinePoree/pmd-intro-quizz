@@ -1,0 +1,15 @@
+button {
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #222022bf;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border: 15px solid transparent;
+  cursor: pointer;
+  border-image: url(/assets/img/others/pmdtextbox.png) 43 round;
+}
+
+button:focus {
+  background-color: deepskyblue;
+}

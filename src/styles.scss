@@ -6,7 +6,7 @@
 @import "scss/_fonts.scss";
 
 // primary font
-$primary_font: "Lato";
+$primary_font: "Wonder Mail";
 // font-weight
 $thin: 100;
 $light: 300;
@@ -19,8 +19,15 @@ $font-sm: 14px;
 $primary-fs: 16px;
 $font-md: 18px;
 $font-lg: 20px;
+
+* {
+  font-family: $primary_font;
+  font-size: $primary-fs;
+  font-weight: $regular;
+}
 body {
   font-family: $primary_font;
   font-size: $primary-fs;
   font-weight: $regular;
+  margin: 0;
 }

@@ -1,1 +1,12 @@
-<h1>Hello!</h1>
+<section>
+  <div class="background infinite-scroll-right"></div>
+  <div class="background infinite-scroll-left"></div>
+</section>
+
+<main *ngIf="questions && questions.length !== 0">
+  <app-step [questions]="questions"></app-step>
+  <app-button
+    (onClick)="emitButton($event)"
+    [label]="questions[0].title"
+  ></app-button>
+</main>
