@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Steps } from './core/enums/steps';
 import { IQuestion } from './core/models/question';
-import { QuestionsService } from './core/services/questions.service';
+import { StoreService } from './core/services/store.service';
 import { StepsService } from './core/services/steps.service';
 
 @Component({
@@ -10,45 +10,45 @@ import { StepsService } from './core/services/steps.service';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  title = 'pmd-intro-quizz';
   questions: IQuestion[] = [];
+  natures: any[] = [];
+  natureToPokemon: any[] = [];
+  natureDescription: any[] = [];
+  basics: any[] = [];
+
   Steps = Steps;
   currentStep$ = this.stepsService.currentStep$;
 
   constructor(
-    public questionsService: QuestionsService,
+    public storeService: StoreService,
     public stepsService: StepsService
   ) {}
 
   ngOnInit(): void {
-    this.questionsService
-      .getQuestionsByLangage()
-      .then((questions) => {
-        this.questions = questions;
+    this.storeService
+      .getAndSetAll()
+      .then((data) => {
+        this.questions = this.shuffleAndCut(data.questions);
+        this.natures = data.natures;
+        this.natureToPokemon = data.natureToPokemon;
+        this.natureDescription = data.natureDescription;
+        this.basics = data.basics;
       })
       .catch((err) => console.log(err));
   }
 
-  emitButton(event: string) {
-    console.log('functioncall', event);
-    this.stepsService.changeStep(Steps.Result);
+  playAudio() {
+    let audio = new Audio();
+    audio.src = '/assets/audio/quiz-music.ogg';
+    audio.load();
+    audio.play();
   }
 
-  // playAudio() {
-  //   const promise = document.querySelector('video').play();
-
-  //   if (promise !== undefined) {
-  //     promise
-  //       .then((_) => {
-  //         let audio = new Audio();
-  //         audio.src = 'src/assets/audio/quiz-music.ogg';
-  //         audio.load();
-  //         audio.play();
-  //       })
-  //       .catch((error) => {
-  //         // Autoplay was prevented.
-  //         // Show a "Play" button so that user can start playback.
-  //       });
-  //   }
-  // }
+  shuffleAndCut(array: IQuestion[]): IQuestion[] {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array.splice(0, 10);
+  }
 }

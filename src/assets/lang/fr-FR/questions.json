@@ -1,168 +1,168 @@
 [
   {
     "id": 0,
-    "title": "Have you ever blurted something out without thinking about the consequences first?",
+    "title": "Vous arrive-t-il de parler sans réfléchir aux conséquences ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Lonely", "points": 2 },
-          { "nature": "Relaxed", "points": 2 }
+          { "nature": "Solitaire", "points": 2 },
+          { "nature": "Relax", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Intrépide", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 1,
-    "title": "Do you want to be taller someday?",
+    "title": "Est-ce que vous espérez grandir encore ?",
     "responses": [
       {
-        "response": "Totally!",
-        "scores": [{ "nature": "Sassy", "points": 2 }],
+        "response": "Ouais !",
+        "scores": [{ "nature": "Effrontée", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Of course not.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Bien sûr que non.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 2,
-    "title": "Once you've decided something, do you see it through to the end?",
+    "title": "Une fois votre décision prise, allez-vous jusqu'au bout ?",
     "responses": [
       {
-        "response": "Yes.",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "Oui.",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Lunatique", "points": 2 }],
         "id": 1
       }
     ]
   },
   {
     "id": 3,
-    "title": "Have you ever said \"nice to meet you\" to someone you've met previously?",
+    "title": " Avez-vous déjà dit votre nom à quelqu'un que vous connaissiez déjà ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 4,
-    "title": "Have you ever looked at your reflection in a mirror and thought, \"What a cool person\"?",
+    "title": " Vous êtes-vous déjà dit « bon sang, quelle classe ! » en vous regardant dans le miroir ?",
     "responses": [
       {
-        "response": "Certainly!",
+        "response": "Oui, car j'ai la classe !",
         "scores": [
-          { "nature": "Jolly", "points": 1 },
+          { "nature": "Enjoué", "points": 1 },
           { "nature": "Naive", "points": 1 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Well, not really...",
-        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "response": "Pas vraiment…",
+        "scores": [{ "nature": "Intrépide", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 5,
-    "title": "Have you ever thought that if you dug in your backyard you could find buried treasure?",
+    "title": "Vous êtes-vous déjà dit que vous pourriez trouver un trésor en creusant dans votre jardin ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [{ "nature": "Naive", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 6,
-    "title": "Do you prefer to play outside rather than inside?",
+    "title": "Préférez-vous jouer à l'extérieur plutôt qu'à l'intérieur ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Bold", "points": 1 },
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Audacieux", "points": 1 },
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 7,
-    "title": "You discover a beat-up-looking treasure chest in some ruins. What do you do?",
+    "title": " Vous découvrez un coffre au trésor très ancien caché au milieu de ruines. Que faites-vous ?",
     "responses": [
       {
-        "response": "Open it!",
+        "response": "Je l'ouvre !",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Hasty", "points": 2 },
-          { "nature": "Impish", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Pressée", "points": 2 },
+          { "nature": "Espiègle", "points": 2 },
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Get help opening it.",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je cherche des renforts.",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 8,
-    "title": "Have you ever realized you were hogging the conversation?",
+    "title": "Vous êtes-vous déjà rendu compte que vous monopolisez la conversation ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Rash", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Spontané", "points": 2 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
+        "response": "Non.",
         "scores": [
-          { "nature": "Docile", "points": 1 },
-          { "nature": "Quiet", "points": 1 }
+          { "nature": "Serviable", "points": 1 },
+          { "nature": "Silencieux", "points": 1 }
         ],
         "id": 1
       }
@@ -170,57 +170,57 @@
   },
   {
     "id": 9,
-    "title": "When you see a switch, do you feel an overwhelming urge to flip it?",
+    "title": "Vous voyez un interrupteur… Avouez ! Vous avez une envie irrépressible d'appuyer dessus, n'est-ce pas ?",
     "responses": [
       {
-        "response": "Yes.",
-        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "response": "Oui.",
+        "scores": [{ "nature": "Pressée", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 10,
-    "title": "Have you ever forgotten you bought something and bought another one?",
+    "title": "Vous est-il déjà arrivé d'oublier que vous avez acheté un objet et d'en racheter un autre ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Hasty", "points": 1 },
-          { "nature": "Quirky", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Pressée", "points": 1 },
+          { "nature": "Lunatique", "points": 2 },
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 11,
-    "title": "Do you think it's important to always aim to be the best?",
+    "title": "D'après vous, c'est important de toujours chercher à être le meilleur ?",
     "responses": [
       {
-        "response": "Of course!",
+        "response": "Bien sûr !",
         "scores": [
-          { "nature": "Lonely", "points": 1 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Solitaire", "points": 1 },
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
+        "response": "Non.",
         "scores": [
-          { "nature": "Calm", "points": 2 },
-          { "nature": "Quirky", "points": 1 }
+          { "nature": "Calme", "points": 2 },
+          { "nature": "Lunatique", "points": 1 }
         ],
         "id": 1
       }
@@ -228,98 +228,106 @@
   },
   {
     "id": 12,
-    "title": "Do you want to be famous?",
+    "title": "Aimeriez-vous devenir célèbre ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Lonely", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Solitaire", "points": 2 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Relaxed", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Relax", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 13,
-    "title": "If you saw someone doing something bad, could you scold them?",
+    "title": " Vous sentiriez-vous capable de sermonner quelqu'un qui aurait fait quelque chose de mal ?",
     "responses": [
       {
-        "response": "Of course!",
+        "response": "Bien sûr !",
         "scores": [
-          { "nature": "Bold", "points": 1 },
+          { "nature": "Audacieux", "points": 1 },
           { "nature": "Brave", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
         "response": "Not really.",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 14,
-    "title": "Have you ever told a joke that just completely fell flat?",
+    "title": "Vous est-il déjà arrivé de faire un bide en racontant une blague ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Impish", "points": 1 },
+          { "nature": "Espiègle", "points": 1 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Calm", "points": 2 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Calme", "points": 2 }],
         "id": 1
       }
     ]
   },
   {
     "id": 15,
-    "title": "Do you like lively parties?",
+    "title": "Vous aimez les fêtes endiablées ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Lonely", "points": 1 }
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Solitaire", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
+      },
+      {
+        "response": "ça sa fait danser les rats ça.",
+        "scores": [
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Solitaire", "points": 1 }
+        ],
+        "id": 2
       }
     ]
   },
   {
     "id": 16,
-    "title": "Are you truly sincere when you apologize?",
+    "title": "Êtes-vous toujours sincère quand vous présentez des excuses ?",
     "responses": [
       {
-        "response": "Of course.",
+        "response": "Bien sûr.",
         "scores": [
-          { "nature": "Bold", "points": 1 },
-          { "nature": "Docile", "points": 2 }
+          { "nature": "Audacieux", "points": 1 },
+          { "nature": "Serviable", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "That's not easy to admit!",
+        "response": "Pas toujours",
         "scores": [
-          { "nature": "Lonely", "points": 1 },
-          { "nature": "Timid", "points": 2 }
+          { "nature": "Solitaire", "points": 1 },
+          { "nature": "Timide", "points": 2 }
         ],
         "id": 1
       }
@@ -327,21 +335,21 @@
   },
   {
     "id": 17,
-    "title": "Do you like karaoke?",
+    "title": "Aimez-vous le karaoké ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
+        "response": "Non.",
         "scores": [
-          { "nature": "Hasty", "points": 1 },
-          { "nature": "Timid", "points": 1 }
+          { "nature": "Pressée", "points": 1 },
+          { "nature": "Timide", "points": 1 }
         ],
         "id": 1
       }
@@ -349,21 +357,21 @@
   },
   {
     "id": 18,
-    "title": "You're hiking up a mountain when you reach diverging paths. Which kind do you take?",
+    "title": "Vous faites une randonnée en montagne quand vous tombez sur une bifurcation. Quel chemin prenez-vous ?",
     "responses": [
       {
-        "response": "Narrow.",
+        "response": "Le sentier.",
         "scores": [
-          { "nature": "Impish", "points": 2 },
+          { "nature": "Espiègle", "points": 2 },
           { "nature": "Naive", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Wide.",
+        "response": "La route.",
         "scores": [
-          { "nature": "Quirky", "points": 2 },
-          { "nature": "Timid", "points": 1 }
+          { "nature": "Lunatique", "points": 2 },
+          { "nature": "Timide", "points": 1 }
         ],
         "id": 1
       }
@@ -371,22 +379,22 @@
   },
   {
     "id": 19,
-    "title": "Your friend takes a spectacular fall! What do you do?",
+    "title": " Un de vos amis fait une chute spectaculaire ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Help my friend up!",
+        "response": "Je l'aide à se relever ! ",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Lonely", "points": 1 }
+          { "nature": "Solitaire", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Laugh! It's too funny!",
+        "response": "J'éclate de rire ! C'est trop drôle ! ",
         "scores": [
-          { "nature": "Impish", "points": 2 },
+          { "nature": "Espiègle", "points": 2 },
           { "nature": "Naive", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 1
       }
@@ -394,38 +402,38 @@
   },
   {
     "id": 20,
-    "title": "Have you ever accidentally called a teacher \"Mom\" or \"Dad\"?",
+    "title": "Vous est-il déjà arrivé d'appeler un professeur « maman » ou « papa » par accident ?",
     "responses": [
       {
-        "response": "Yes.",
-        "scores": [{ "nature": "Rash", "points": 2 }],
+        "response": "Oui.",
+        "scores": [{ "nature": "Spontané", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No.",
-        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "response": "Non.",
+        "scores": [{ "nature": "Silencieux", "points": 2 }],
         "id": 1
       }
     ]
   },
   {
     "id": 21,
-    "title": "There's a rumor around about a ghost haunting the school bathrooms! What do you do?",
+    "title": " Le bruit court qu'un fantôme hante les toilettes de l'école. Quelle est votre réaction ?",
     "responses": [
       {
-        "response": "Scary... bathrooms!",
+        "response": "Au secours !!!",
         "scores": [
-          { "nature": "Docile", "points": 2 },
-          { "nature": "Timid", "points": 1 }
+          { "nature": "Serviable", "points": 2 },
+          { "nature": "Timide", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Go in there anyway.",
+        "response": "J'y vais, pour voir.",
         "scores": [
-          { "nature": "Bold", "points": 1 },
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Audacieux", "points": 1 },
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 1
       }
@@ -433,21 +441,21 @@
   },
   {
     "id": 22,
-    "title": "Your friend is running a little late to meet you. Is that OK?",
+    "title": "Un ami est un peu en retard. Ça vous agace ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Not at all!",
+        "response": "Pas du tout !",
         "scores": [
-          { "nature": "Hasty", "points": 1 },
-          { "nature": "Lonely", "points": 2 }
+          { "nature": "Pressée", "points": 1 },
+          { "nature": "Solitaire", "points": 2 }
         ],
         "id": 1
       }
@@ -455,37 +463,37 @@
   },
   {
     "id": 23,
-    "title": "Do you think that, no matter what, life goes on?",
+    "title": "La vie continue, quoi qu'il arrive. Vous êtes d'accord ?",
     "responses": [
       {
-        "response": "All the time!",
+        "response": "Bien sûr !",
         "scores": [
-          { "nature": "Jolly", "points": 1 },
-          { "nature": "Relaxed", "points": 2 }
+          { "nature": "Enjoué", "points": 1 },
+          { "nature": "Relax", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Never.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Bof…",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       }
     ]
   },
   {
     "id": 24,
-    "title": "Do you think blaming something you did on someone else is sometimes necessary?",
+    "title": "D'après vous, est-il parfois nécessaire de mettre ses propres erreurs sur le dos des autres ?",
     "responses": [
       {
-        "response": "Of course!",
+        "response": "Bien sûr !",
         "scores": [
-          { "nature": "Quiet", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Silencieux", "points": 2 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No way!",
+        "response": "Surtout pas !",
         "scores": [{ "nature": "Brave", "points": 2 }],
         "id": 1
       }
@@ -493,44 +501,44 @@
   },
   {
     "id": 25,
-    "title": "You're at a movie theater. What are you there to see?",
+    "title": "Vous êtes au cinéma. Quel genre de film allez-vous voir ?",
     "responses": [
       {
-        "response": "An action movie.",
+        "response": "Un film d'action.",
         "scores": [
-          { "nature": "Impish", "points": 2 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Espiègle", "points": 2 },
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "A drama.",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "Une comédie dramatique.",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 1
       },
       {
-        "response": "A romantic movie.",
-        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "response": "Un film romantique.",
+        "scores": [{ "nature": "Lunatique", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 26,
-    "title": "You have a really important test tomorrow! What do you do?",
+    "title": "Vous avez un examen important demain ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Study all night long.",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "J'étudie toute la nuit. ",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Wing it! I'm sure it will be fine!",
-        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "response": "Je ne m'en fais pas ! Tout ira bien !",
+        "scores": [{ "nature": "Relax", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Test?! I think I have a fever...",
+        "response": "Un examen ? Je crois que je suis malade... ",
         "scores": [{ "nature": "Naive", "points": 2 }],
         "id": 2
       }
@@ -538,99 +546,99 @@
   },
   {
     "id": 27,
-    "title": "You're in class when you realize that you really have to go to the restroom! What do you do?",
+    "title": "En plein milieu d'un cours, il vous prend l'envie soudaine d'aller aux toilettes ! Que faire ?",
     "responses": [
       {
-        "response": "Ask for permission to leave.",
+        "response": "Je demande la permission de sortir.",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Bold", "points": 2 }
+          { "nature": "Audacieux", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Sneak out.",
-        "scores": [{ "nature": "Hasty", "points": 1 }],
+        "response": "Je sors en silence.",
+        "scores": [{ "nature": "Pressée", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Hold on until class ends!",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je tiens jusqu'à la fin du cours. ",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 2
       }
     ]
   },
   {
     "id": 28,
-    "title": "Do you think you have good study habits?",
+    "title": "Pensez-vous avoir de bonnes habitudes de travail ?",
     "responses": [
       {
-        "response": "Yes.",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Oui.",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No.",
+        "response": "Non.",
         "scores": [
           { "nature": "Naive", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "Well, I never lose at sports!",
-        "scores": [{ "nature": "Impish", "points": 2 }],
+        "response": "Oui, mais juste en sport.",
+        "scores": [{ "nature": "Espiègle", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 29,
-    "title": "You see a cake that is past its expiration date, but only by one day. What do you do?",
+    "title": "Vous vous apercevez qu'un gâteau a dépassé sa date de péremption, mais seulement d'un jour. Que faites-vous ?",
     "responses": [
       {
-        "response": "Not a problem! Chow time!.",
+        "response": "Aucun complexe ! À taaable !",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Think about it briefly, then decide.",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je prends le temps d'y réfléchir",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Get someone to try it first.",
-        "scores": [{ "nature": "Bold", "points": 2 }],
+        "response": "Je désigne quelqu'un pour y goûter.",
+        "scores": [{ "nature": "Audacieux", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 30,
-    "title": "You've just stuffed yourself with a good meal when a great dessert arrives. What do you do?",
+    "title": "Le plat de résistance était déjà très copieux mais voilà votre dessert préféré qui arrive. Que faites-vous ?",
     "responses": [
       {
-        "response": "Eat it. Who cares if I'm stuffed?",
+        "response": "Je le mange quand même, bien sûr !",
         "scores": [
-          { "nature": "Hasty", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Pressée", "points": 2 },
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Turn it down. It's too fattening!",
-        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "response": "J'abandonne. C'est trop énorme !",
+        "scores": [{ "nature": "Intrépide", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Yum! I love dessert the most!",
+        "response": "C'est le dessert que je préfère !",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Relaxed", "points": 1 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Relax", "points": 1 }
         ],
         "id": 2
       }
@@ -638,29 +646,29 @@
   },
   {
     "id": 31,
-    "title": "Your friend has made a meal that tastes terrible. They ask, \"How is it?\" You say...?",
+    "title": " Un ami vous a préparé un repas immangeable. Vient alors la question fatidique : « c'était bon ? » que répondez-vous ?",
     "responses": [
       {
         "response": "\"Terrible!\"",
         "scores": [
           { "nature": "Brave", "points": 1 },
-          { "nature": "Quiet", "points": 1 }
+          { "nature": "Silencieux", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Just smile.",
+        "response": "J'esquisse un sourire.",
         "scores": [
-          { "nature": "Calm", "points": 2 },
-          { "nature": "Lonely", "points": 1 }
+          { "nature": "Calme", "points": 2 },
+          { "nature": "Solitaire", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "\"Um, it's...good.\"",
+        "response": "Hmm, un vrai régal…",
         "scores": [
-          { "nature": "Rash", "points": 1 },
-          { "nature": "Timid", "points": 1 }
+          { "nature": "Spontané", "points": 1 },
+          { "nature": "Timide", "points": 1 }
         ],
         "id": 2
       }
@@ -668,101 +676,101 @@
   },
   {
     "id": 32,
-    "title": "You're eating at a very fancy restaurant known for its food. Which course do you select?",
+    "title": "Vous dînez dans un restaurant chic réputé pour la qualité de sa cuisine ? Quel plat commandez-vous ?",
     "responses": [
       {
-        "response": "Seared steak.",
+        "response": "Un steak grillé !",
         "scores": [
-          { "nature": "Impish", "points": 2 },
+          { "nature": "Espiègle", "points": 2 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Healthy fish.",
-        "scores": [{ "nature": "Hardy", "points": 1 }],
+        "response": "Un poisson vapeur.",
+        "scores": [{ "nature": "Intrépide", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Anything! It's all good!",
-        "scores": [{ "nature": "Bold", "points": 2 }],
+        "response": "Peu importe ! Tout me tente !",
+        "scores": [{ "nature": "Audacieux", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 33,
-    "title": "Everyone's sharing a dessert, and there's an extra piece. What do you do?",
+    "title": "Tout le monde partage un gâteau et il y a une part en rab. Que faites-vous ?",
     "responses": [
       {
-        "response": "Don't tell anyone.",
+        "response": "Je la mange en douce",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Timid", "points": 1 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Timide", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Let everyone know.",
+        "response": "Je la propose aux autres.",
         "scores": [
-          { "nature": "Docile", "points": 2 },
-          { "nature": "Rash", "points": 2 }
+          { "nature": "Serviable", "points": 2 },
+          { "nature": "Spontané", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "First come, first served!",
-        "scores": [{ "nature": "Impish", "points": 2 }],
+        "response": "Premier arrivé, premier servi !",
+        "scores": [{ "nature": "Espiègle", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 34,
-    "title": "Your friend offers to treat you to dinner. What do you do?",
+    "title": "Un ami vous invite à dîner. Que répondez-vous ?",
     "responses": [
       {
-        "response": "I'm there!",
-        "scores": [{ "nature": "Bold", "points": 2 }],
+        "response": "J'arrive !",
+        "scores": [{ "nature": "Audacieux", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Allow me.",
-        "scores": [{ "nature": "Jolly", "points": 2 }],
+        "response": "Non merci",
+        "scores": [{ "nature": "Enjoué", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Thanks...",
-        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "response": "D'accord…",
+        "scores": [{ "nature": "Lunatique", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 35,
-    "title": "Everyone around you is laughing hard at something you think is pretty boring. What do you do?",
+    "title": "Tout le monde rigole à une blague que vous trouvez nulle. Que faites-vous ?",
     "responses": [
       {
-        "response": "Nothing, really.",
+        "response": "Rien.",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Bold", "points": 1 }
+          { "nature": "Audacieux", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Laugh along.",
+        "response": "Je ris avec eux.",
         "scores": [
-          { "nature": "Lonely", "points": 1 },
-          { "nature": "Timid", "points": 2 }
+          { "nature": "Solitaire", "points": 1 },
+          { "nature": "Timide", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "It depends on the situation.",
+        "response": "Cela dépend de la situation.",
         "scores": [
-          { "nature": "Quiet", "points": 1 },
-          { "nature": "Quirky", "points": 1 }
+          { "nature": "Silencieux", "points": 1 },
+          { "nature": "Lunatique", "points": 1 }
         ],
         "id": 2
       }
@@ -770,164 +778,164 @@
   },
   {
     "id": 36,
-    "title": "Do you prefer to be busy or to have a lot of free time?",
+    "title": "Vous préférez avoir des tas de choses à faire ou beaucoup de temps libre ?",
     "responses": [
       {
-        "response": "Being busy.",
+        "response": "Des tas de choses à faire !",
         "scores": [
-          { "nature": "Lonely", "points": 2 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Solitaire", "points": 2 },
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Free time!",
-        "scores": [{ "nature": "Calm", "points": 2 }],
+        "response": "Du temps libre !",
+        "scores": [{ "nature": "Calme", "points": 2 }],
         "id": 1
       },
       {
-        "response": "In between.",
-        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "response": "Un peu des deux !",
+        "scores": [{ "nature": "Lunatique", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 37,
-    "title": "You're about to buy a popular game when someone else gets the last copy! How do you feel?",
+    "title": "Vous êtes sur le point d'acheter le dernier exemplaire d'un jeu quand quelqu’un s'en empare sous votre nez. Que faites-vous ?",
     "responses": [
       {
-        "response": "Whatever.",
-        "scores": [{ "nature": "Calm", "points": 2 }],
+        "response": "Rien, ce n'est qu'un jeu.",
+        "scores": [{ "nature": "Calme", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Annoyed. I was here first!",
+        "response": "Rends-moi ça !!!",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Relaxed", "points": 2 }
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Relax", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "I shed a few tears.",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "Je pleure.",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 38,
-    "title": "You run into a new person that you haven't talked to very much before. What do you do?",
+    "title": "Vous tombez sur une connaissance à qui vous n'avez jamais vraiment parlé. Que faites-vous ?",
     "responses": [
       {
-        "response": "Make small talk.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Je fais la causette.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 0
       },
       {
-        "response": "Say nothing!",
-        "scores": [{ "nature": "Quirky", "points": 1 }],
+        "response": "Je ne dis rien !",
+        "scores": [{ "nature": "Lunatique", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Make an excuse to get away!",
-        "scores": [{ "nature": "Timid", "points": 2 }],
+        "response": "Je trouve un prétexte pour partir !",
+        "scores": [{ "nature": "Timide", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 39,
-    "title": "You take off your shoes to realize your socks are two different colors! What do you do?",
+    "title": "Vous vous rendez compte que vos chaussettes sont dépareillées ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Get embarrassed!",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Je rougis de honte !",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Again?!",
-        "scores": [{ "nature": "Rash", "points": 2 }],
+        "response": "Encore ?!",
+        "scores": [{ "nature": "Spontané", "points": 2 }],
         "id": 1
       },
       {
-        "response": "I meant to do that!",
-        "scores": [{ "nature": "Jolly", "points": 2 }],
+        "response": "C'est fait exprès !",
+        "scores": [{ "nature": "Enjoué", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 40,
-    "title": "Good news and bad news... Which one do you want to hear first?",
+    "title": "Bonne nouvelle ou mauvaise nouvelle… Laquelle préférez-vous apprendre en premier ?",
     "responses": [
       {
-        "response": "The good news.",
-        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "response": "La bonne.",
+        "scores": [{ "nature": "Relax", "points": 2 }],
         "id": 0
       },
       {
-        "response": "The bad news.",
+        "response": "La mauvaise.",
         "scores": [
-          { "nature": "Bold", "points": 1 },
+          { "nature": "Audacieux", "points": 1 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "I don't want either.",
-        "scores": [{ "nature": "Timid", "points": 2 }],
+        "response": "Aucune des deux",
+        "scores": [{ "nature": "Timide", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 41,
-    "title": "Did you make any New Year's resolutions?",
+    "title": "Avez-vous déjà pris des bonnes résolutions pour la nouvelle année ?",
     "responses": [
       {
-        "response": "Of course!",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "Bien sûr !",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 0
       },
       {
         "response": "Nope.",
         "scores": [
-          { "nature": "Quirky", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Lunatique", "points": 2 },
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "What are those?",
-        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "response": "Kézaco ?",
+        "scores": [{ "nature": "Relax", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 42,
-    "title": "You're in a completely silent assembly when you suddenly hear someone pass gas! How do you react?",
+    "title": " Le silence règne dans la salle quand vous entendez quelqu'un lâcher un vent ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Roll on the floor laughing!",
+        "response": "J'éclate de rire !",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
+          { "nature": "Enjoué", "points": 2 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Just let it go by...",
+        "response": "On va dire que je n'ai rien entendu…",
         "scores": [
-          { "nature": "Docile", "points": 1 },
-          { "nature": "Impish", "points": 1 }
+          { "nature": "Serviable", "points": 1 },
+          { "nature": "Espiègle", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "Who was that?!",
+        "response": "Qui a pété ?!",
         "scores": [{ "nature": "Brave", "points": 2 }],
         "id": 2
       }
@@ -935,26 +943,26 @@
   },
   {
     "id": 43,
-    "title": "You're running a marathon, and at the start you fall flat on your face! What will you do?",
+    "title": "Vous courez un marathon et tombez face contre terre dès le départ. Que faites-vous ?",
     "responses": [
       {
-        "response": "I'm not giving up yet!",
+        "response": "Abandonner ? Jamais ",
         "scores": [
           { "nature": "Brave", "points": 1 },
-          { "nature": "Hardy", "points": 2 }
+          { "nature": "Intrépide", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Just give up.",
-        "scores": [{ "nature": "Quirky", "points": 2 }],
+        "response": "Je laisse tomber.",
+        "scores": [{ "nature": "Lunatique", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Shout, \"START OVER!\"",
+        "response": "Je hurle : « Faux départ ! »",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Rash", "points": 1 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Spontané", "points": 1 }
         ],
         "id": 2
       }
@@ -962,47 +970,47 @@
   },
   {
     "id": 44,
-    "title": "You find something at a great bargain price! What do you do?",
+    "title": "Vous trouvez quelque chose à un très bon prix ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Buy it right away!",
-        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "response": "Je l'achète tout de suite !!",
+        "scores": [{ "nature": "Pressée", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Think about whether you need it.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Je pèse le pour et le contre. ",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Demand an even bigger discount!",
-        "scores": [{ "nature": "Bold", "points": 2 }],
+        "response": "Je veux payer encore moins cher !",
+        "scores": [{ "nature": "Audacieux", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 45,
-    "title": "You've been asked to do a difficult task. What will you do?",
+    "title": "On vous demande d'accomplir une tâche difficile. Comment vous y prenez-vous ?",
     "responses": [
       {
-        "response": "Do it myself.",
+        "response": "Je l'a fait moi-même !",
         "scores": [
           { "nature": "Brave", "points": 1 },
-          { "nature": "Hardy", "points": 2 }
+          { "nature": "Intrépide", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Ask someone to help.",
-        "scores": [{ "nature": "Docile", "points": 1 }],
+        "response": "Je demande de l'aide.",
+        "scores": [{ "nature": "Serviable", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Make someone else do it!",
+        "response": "Je délègue !",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 2
       }
@@ -1010,23 +1018,23 @@
   },
   {
     "id": 46,
-    "title": "You notice that a toy you bought for full price yesterday is marked down to half price today! How do you feel?",
+    "title": "Le jouet que vous avez acheté plein tarif hier est soldé à moitié prix aujourd'hui ! Comment le prenez-vous ?",
     "responses": [
       {
-        "response": "Heartbroken...",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "Ça me fend le coeur…",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Aaaargh!",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "J'enrage !",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Bad timing, I guess...",
+        "response": "Ce n'était pas mon jour… ",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Calm", "points": 2 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Calme", "points": 2 }
         ],
         "id": 2
       }
@@ -1034,163 +1042,163 @@
   },
   {
     "id": 47,
-    "title": "The phone's ringing! What do you do?",
+    "title": "Le téléphone sonne ! Que faites-vous ?",
     "responses": [
       {
-        "response": "Answer right away!",
+        "response": "Je réponds immédiatement !",
         "scores": [
-          { "nature": "Hasty", "points": 2 },
-          { "nature": "Lonely", "points": 2 }
+          { "nature": "Pressée", "points": 2 },
+          { "nature": "Solitaire", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Wait a bit before answering.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "J'attends un peu avant de répondre.",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       },
       {
-        "response": "Ignore it and let it ring.",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je le laisse sonner.",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 2
       }
     ]
   },
   {
     "id": 48,
-    "title": "Your friends seem to be making plans to hang out, just out of earshot. You think...",
+    "title": "Vos amis sont en train d'organiser une sortie, mais vous êtes trop loin pour les entendre. Qu'en pensez-vous ?",
     "responses": [
       {
-        "response": "I want to go too!",
+        "response": "Je veux en être !",
         "scores": [{ "nature": "Naive", "points": 2 }],
         "id": 0
       },
       {
-        "response": "No big deal.",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "Et alors ?",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Will they invite me?",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Pourvu qu'ils m'invitent !",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 2
       }
     ]
   },
   {
     "id": 49,
-    "title": "Do you think it's important to be fashionably late?",
+    "title": "Etes-vous du genre à arriver en retard pour vous faire désirer ?",
     "responses": [
       {
-        "response": "Yes.",
+        "response": "Oui.",
         "scores": [
-          { "nature": "Bold", "points": 2 },
-          { "nature": "Quiet", "points": 2 }
+          { "nature": "Audacieux", "points": 2 },
+          { "nature": "Silencieux", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "No.",
+        "response": "Non.",
         "scores": [{ "nature": "Brave", "points": 2 }],
         "id": 1
       },
       {
-        "response": "I don't know.",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Je ne sais pas.",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 50,
-    "title": "You've won big on a raffle ticket! You say...",
+    "title": "Vous avez gagné le gros lot à la tombola ! Vous vous dites…",
     "responses": [
       {
-        "response": "Woo-hoo!",
+        "response": "Yahou !",
         "scores": [
-          { "nature": "Jolly", "points": 1 },
+          { "nature": "Enjoué", "points": 1 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "I can't believe it...",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je ne peux pas y croire...",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 1
       },
       {
-        "response": "This is my little secret.",
-        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "response": "C'est mon petit secret.",
+        "scores": [{ "nature": "Silencieux", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 51,
-    "title": "Your friend suddenly won't listen to you, when everything was fine yesterday. What happened?",
+    "title": "Un ami refuse de vous parler, alors qu'hier encore vous vous entendiez à merveille. Que s'est-il passé ?",
     "responses": [
       {
-        "response": "Maybe they're sick.",
-        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "response": "Il est peut-être malade.",
+        "scores": [{ "nature": "Pressée", "points": 2 }],
         "id": 0
       },
       {
-        "response": "They're lost in thought.",
-        "scores": [{ "nature": "Quiet", "points": 2 }],
+        "response": "Il a besoin de réfléchir.",
+        "scores": [{ "nature": "Silencieux", "points": 2 }],
         "id": 1
       },
       {
-        "response": "What?! Why?!",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Comment ça se fait ?",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 2
       }
     ]
   },
   {
     "id": 52,
-    "title": "You fail miserably! Everyone found out, and they're disappointed in you... What do you do?",
+    "title": "Vous avez lamentablement échoué. C'est une grande déception pour votre entourage qui comptait sur vous. Que faites-vous ?",
     "responses": [
       {
-        "response": "Try and hide.",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "J'essaye de le cacher",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 0
       },
       {
-        "response": "Think of an excuse.",
+        "response": "Je cherche une excuse.",
         "scores": [
           { "nature": "Naive", "points": 2 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "Drop down and play dead!",
-        "scores": [{ "nature": "Rash", "points": 2 }],
+        "response": "Je m'effondre et fais le mort !",
+        "scores": [{ "nature": "Spontané", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 53,
-    "title": "You're on a stroll when a TV crew pounces on you for an interview. What do you do?",
+    "title": "Vous vous promenez quand une équipe de télévision vous aborde pour vous interviewer. Que faites-vous ?",
     "responses": [
       {
-        "response": "Run away! How embarrassing!",
-        "scores": [{ "nature": "Timid", "points": 2 }],
+        "response": "Je m'enfuis !",
+        "scores": [{ "nature": "Timide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Answer questions properly.",
+        "response": "Je réponds sérieusement.",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "Yuck it up! Woo-hoo! I'm on TV.",
+        "response": "Yahou ! Je passe à la télé !",
         "scores": [
-          { "nature": "Bold", "points": 1 },
+          { "nature": "Audacieux", "points": 1 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 2
@@ -1199,26 +1207,26 @@
   },
   {
     "id": 54,
-    "title": "The people at the next table are singing for someone's birthday. What do you do?",
+    "title": "Les gens attablés à côté de vous chantent « Joyeux anniversaire » à l'un des convives. Comment réagissez-vous ?",
     "responses": [
       {
-        "response": "Stay on the sidelines.",
-        "scores": [{ "nature": "Calm", "points": 1 }],
+        "response": "Je ne fais rien.",
+        "scores": [{ "nature": "Calme", "points": 1 }],
         "id": 0
       },
       {
-        "response": "Sing along!",
+        "response": "Je chante avec eux !",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
+          { "nature": "Enjoué", "points": 2 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "Walk away.",
+        "response": "Je m'en vais.",
         "scores": [
-          { "nature": "Lonely", "points": 1 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Solitaire", "points": 1 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 2
       }
@@ -1226,47 +1234,47 @@
   },
   {
     "id": 55,
-    "title": "You see a big and comfortable bed. Your first reaction is to...",
+    "title": " Un lit spacieux et confortable vous tend les bras. Votre première réaction…",
     "responses": [
       {
-        "response": "Jump on it!",
+        "response": "Sauter dessus !",
         "scores": [
-          { "nature": "Hasty", "points": 1 },
-          { "nature": "Sassy", "points": 1 }
+          { "nature": "Pressée", "points": 1 },
+          { "nature": "Effrontée", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Belly flop!",
-        "scores": [{ "nature": "Impish", "points": 2 }],
+        "response": "Je plonge !",
+        "scores": [{ "nature": "Espiègle", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Curl up.",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "Me coucher",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 56,
-    "title": "You're daydreaming...when your friend sprays you with water! What do you do?",
+    "title": " Vous rêvassez tranquillement… quand un ami vous asperge d'eau ! Quelle est votre réaction ?",
     "responses": [
       {
-        "response": "Get mad!",
-        "scores": [{ "nature": "Hasty", "points": 2 }],
+        "response": "Ça me met en colère !",
+        "scores": [{ "nature": "Pressée", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Get sad.",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "Ça m'attriste.",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Woo-hoo! Water fight!",
+        "response": "Yahou ! Bataille d'eau générale ! ",
         "scores": [
-          { "nature": "Impish", "points": 2 },
-          { "nature": "Jolly", "points": 2 },
+          { "nature": "Espiègle", "points": 2 },
+          { "nature": "Enjoué", "points": 2 },
           { "nature": "Naive", "points": 2 }
         ],
         "id": 2
@@ -1275,26 +1283,26 @@
   },
   {
     "id": 57,
-    "title": "How are your mornings?",
+    "title": "Comment ça se passe chez vous, le matin ?",
     "responses": [
       {
-        "response": "Always in a rush!",
+        "response": "C'est la course ! ",
         "scores": [
           { "nature": "Brave", "points": 2 },
-          { "nature": "Impish", "points": 2 }
+          { "nature": "Espiègle", "points": 2 }
         ],
         "id": 0
       },
       {
-        "response": "Always perfect.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Ça roule !",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 1
       },
       {
-        "response": "They are OK.",
+        "response": "Comme ci, comme ça.",
         "scores": [
-          { "nature": "Docile", "points": 1 },
-          { "nature": "Timid", "points": 2 }
+          { "nature": "Serviable", "points": 1 },
+          { "nature": "Timide", "points": 2 }
         ],
         "id": 2
       }
@@ -1302,144 +1310,144 @@
   },
   {
     "id": 58,
-    "title": "You've been invited to a wonderful party. It's time for the party to start, but there's nobody there! You think...?",
+    "title": "On vous a invité à une fête du tonnerre. Quand vous arrivez sur place, il n'y a pas un chat. Vous vous dites…",
     "responses": [
       {
-        "response": "Did something happen?",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Que se passe-t-il ? ",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Maybe I have the day wrong?",
+        "response": "Ce n'est pas le bon jour !?",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Relaxed", "points": 2 }
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Relax", "points": 2 }
         ],
         "id": 1
       },
       {
-        "response": "Let's get this party started!",
-        "scores": [{ "nature": "Bold", "points": 2 }],
+        "response": "Que la fête commence !",
+        "scores": [{ "nature": "Audacieux", "points": 2 }],
         "id": 2
       }
     ]
   },
   {
     "id": 59,
-    "title": "What's your studying style?",
+    "title": "Travaillez-vous beaucoup à l'école ?",
     "responses": [
       {
-        "response": "Working hard, every day.",
-        "scores": [{ "nature": "Hardy", "points": 2 }],
+        "response": "Je travaille dur tous les jours.",
+        "scores": [{ "nature": "Intrépide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "If I remember to...",
+        "response": "J'étudie quand j'y pense.",
         "scores": [
-          { "nature": "Quirky", "points": 2 },
-          { "nature": "Hasty", "points": 1 }
+          { "nature": "Lunatique", "points": 2 },
+          { "nature": "Pressée", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "I just cover what I need to.",
-        "scores": [{ "nature": "Quiet", "points": 1 }],
+        "response": "Je fais le strict minimum.",
+        "scores": [{ "nature": "Silencieux", "points": 1 }],
         "id": 2
       },
       {
-        "response": "I can't really do it alone...",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "Je n'y arriverai jamais… ",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 3
       }
     ]
   },
   {
     "id": 60,
-    "title": "You've been handed a large bag as a souvenir. What do you do?",
+    "title": "On vous offre un paquet-cadeau. Que faites-vous ?",
     "responses": [
       {
-        "response": "Wait until I get home to open it.",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Je l'ouvrirai en arrivant chez moi.",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 0
       },
       {
-        "response": "Shake it!",
+        "response": "Je le secoue dans tous les sens ! ",
         "scores": [{ "nature": "Naive", "points": 2 }],
         "id": 1
       },
       {
-        "response": "Open it!",
-        "scores": [{ "nature": "Rash", "points": 2 }],
+        "response": "Je me précipite pour l'ouvrir !",
+        "scores": [{ "nature": "Spontané", "points": 2 }],
         "id": 2
       },
       {
-        "response": "It's smaller than everyone else's...",
-        "scores": [{ "nature": "Lonely", "points": 2 }],
+        "response": "C'est le plus petit de tous… ",
+        "scores": [{ "nature": "Solitaire", "points": 2 }],
         "id": 3
       }
     ]
   },
   {
     "id": 61,
-    "title": "Hey, what's that? There's someone behind you! So...did you look just now?",
+    "title": "Hé, qu'est-ce qui se passe ? On dirait qu'il y a quelqu'un derrière vous ! Alors… vous vous retournez ?",
     "responses": [
       {
-        "response": "Don't do that! It scared me!",
-        "scores": [{ "nature": "Timid", "points": 2 }],
+        "response": "Mais arrête ! J'ai eu trop peur !!",
+        "scores": [{ "nature": "Timide", "points": 2 }],
         "id": 0
       },
       {
-        "response": "OK, I admit it. You tricked me.",
-        "scores": [{ "nature": "Docile", "points": 2 }],
+        "response": "Je l'avoue, je me suis fait avoir.",
+        "scores": [{ "nature": "Serviable", "points": 2 }],
         "id": 1
       },
       {
-        "response": "No way. I didn't fall for it.",
+        "response": "On ne me la fait pas, à moi !",
         "scores": [
-          { "nature": "Lonely", "points": 2 },
-          { "nature": "Sassy", "points": 2 }
+          { "nature": "Solitaire", "points": 2 },
+          { "nature": "Effrontée", "points": 2 }
         ],
         "id": 2
       },
       {
-        "response": "Huh? What?",
-        "scores": [{ "nature": "Relaxed", "points": 2 }],
+        "response": "Hein ? Quoi ?",
+        "scores": [{ "nature": "Relax", "points": 2 }],
         "id": 3
       }
     ]
   },
   {
     "id": 62,
-    "title": "You want to reveal that you like someone a whole bunch! What do you do?",
+    "title": "Vous voulez faire une déclaration d'amour à quelqu'un ! Comment vous y prenez-vous ?",
     "responses": [
       {
-        "response": "Show it a little by playing together.",
+        "response": "Je lui montre un peu en plaisantant. ",
         "scores": [
-          { "nature": "Jolly", "points": 2 },
-          { "nature": "Quiet", "points": 1 }
+          { "nature": "Enjoué", "points": 2 },
+          { "nature": "Silencieux", "points": 1 }
         ],
         "id": 0
       },
       {
-        "response": "Make it obvious by...playing a prank!",
+        "response": "Je le lui montre en faisant le pitre !",
         "scores": [
-          { "nature": "Lonely", "points": 2 },
+          { "nature": "Solitaire", "points": 2 },
           { "nature": "Naive", "points": 1 }
         ],
         "id": 1
       },
       {
-        "response": "State it clearly for all to hear!",
+        "response": "Je le clame haut et fort !",
         "scores": [
-          { "nature": "Bold", "points": 1 },
+          { "nature": "Audacieux", "points": 1 },
           { "nature": "Brave", "points": 2 },
-          { "nature": "Impish", "points": 2 }
+          { "nature": "Espiègle", "points": 2 }
         ],
         "id": 2
       },
       {
-        "response": "Keep it to myself! It's too risky!",
-        "scores": [{ "nature": "Timid", "points": 1 }],
+        "response": "Je le garde pour moi ! Trop risqué !",
+        "scores": [{ "nature": "Timide", "points": 1 }],
         "id": 3
       }
     ]

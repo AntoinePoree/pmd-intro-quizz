@@ -1,4 +1,13 @@
-<p>step works!</p>
-<p *ngIf="(currentStep$ | async) === Steps.Intro">Hide when question</p>
-
-<!-- Prévoir un ngswitch -->
+<div class="container" [ngSwitch]="currentStep$ | async">
+  <div *ngSwitchCase="Steps.Intro">{{ currentStep$ | async }}</div>
+  <div *ngSwitchCase="Steps.Question">
+    <app-question
+      (passedToNextStep)="passedToNextStep($event)"
+      [allQuestions]="questions"
+    ></app-question>
+  </div>
+  <div *ngSwitchCase="Steps.Result">
+    <app-final-step></app-final-step>
+  </div>
+  <div *ngSwitchDefault>There is an error, please reload</div>
+</div>

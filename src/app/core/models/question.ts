@@ -7,10 +7,10 @@ export interface IQuestion {
 export interface IResponse {
   id: number;
   response: string;
-  scores: [
-    {
-      nature: string;
-      points: number;
-    }
-  ];
+  scores: IScore[];
+}
+
+export interface IScore {
+  nature: string;
+  points: number;
 }

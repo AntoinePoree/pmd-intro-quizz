@@ -1,3 +1,16 @@
-<p>
-  question works!
-</p>
+<ng-container *ngFor="let question of allQuestions; let i = index">
+  <div *ngIf="i === questionIndex">
+    <app-text-box [label]="question.title"></app-text-box>
+
+    <ul>
+      <ng-container *ngFor="let response of question.responses">
+        <li *ngIf="response">
+          <app-button-question
+            (onClick)="newResponseChosen($event)"
+            [response]="response"
+          ></app-button-question>
+        </li>
+      </ng-container>
+    </ul>
+  </div>
+</ng-container>

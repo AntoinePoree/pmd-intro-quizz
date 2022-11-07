@@ -1,7 +1,6 @@
 import { StepsService } from './../../core/services/steps.service';
 import { Component, OnInit, Input } from '@angular/core';
-import { IQuestion } from 'src/app/core/models/question';
-import { take } from 'rxjs';
+import { IQuestion, IScore } from 'src/app/core/models/question';
 import { Steps } from 'src/app/core/enums/steps';
 
 @Component({
@@ -16,9 +15,10 @@ export class StepComponent implements OnInit {
 
   constructor(public stepsService: StepsService) {}
 
-  ngOnInit() {
-    this.stepsService.currentStep$
-      .pipe(take(1))
-      .subscribe((currentStep) => console.log(currentStep));
+  ngOnInit() {}
+
+  passedToNextStep(event: IScore[]) {
+    console.log(event);
+    this.stepsService.changeStep(Steps.Result);
   }
 }
