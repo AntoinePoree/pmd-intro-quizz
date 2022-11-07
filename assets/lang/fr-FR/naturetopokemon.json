@@ -1,0 +1,18 @@
+{
+  "Intrépide": ["Poussifeu", "Arcko"],
+  "Serviable": ["Salamèche", "Bulbizarre"],
+  "Courageux": ["Pikachu", "Salamèche"],
+  "Enjoué": ["Kaïminus", "Eevee"],
+  "Espiègle": ["Tiplouf", "Chimchar"],
+  "Naive": ["Chimchar", "Skitty"],
+  "Timide": ["Héricendre", "Tortipouss"],
+  "Pressée": ["Lixy", "Pikachu"],
+  "Effrontée": ["Riolu", "Kaïminus"],
+  "Calme": ["Germignon", "Héricendre"],
+  "Relax": ["Phanpy", "Goupix"],
+  "Solitaire": ["Bulbizarre", "Gobou"],
+  "Lunatique": ["Carapuce", "Tiplouf"],
+  "Silencieux": ["Arcko", "Germignon"],
+  "Spontané": ["Gobou", "Poussifeu"],
+  "Audacieux": ["Tortipouss", "Carapuce"]
+}
