@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'assets/',
+  baseUrl: 'https://antoineporee.github.io/pmd-intro-quizz/assets/',
 };

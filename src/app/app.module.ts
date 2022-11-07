@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { Inject, LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -8,7 +9,13 @@ import { ComponentsModule } from './shared/components/components.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, StepModule, ComponentsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    StepModule,
+    ComponentsModule,
+    HttpClientModule,
+  ],
   exports: [ComponentsModule],
   providers: [],
   bootstrap: [AppComponent],
