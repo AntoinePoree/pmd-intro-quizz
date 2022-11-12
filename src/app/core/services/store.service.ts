@@ -3,7 +3,7 @@ import { getLanguage } from 'src/app/shared/utils/utils';
 import { environment } from 'src/environments/environment';
 import { IQuestion } from '../models/question';
 import { HttpClient } from '@angular/common/http';
-import { forkJoin } from 'rxjs';
+import { IBasic } from '../models/basics';
 
 @Injectable({
   providedIn: 'root',
@@ -11,9 +11,9 @@ import { forkJoin } from 'rxjs';
 export class StoreService {
   questions: IQuestion[] = [];
   natures: string[] = [];
-  natureToPokemon: any[] = [];
-  natureDescription: any[] = [];
-  basics: any[] = [];
+  natureToPokemon: any = {};
+  natureDescription: any = {};
+  basics: IBasic = { starter: '' };
 
   constructor(private http: HttpClient) {}
 

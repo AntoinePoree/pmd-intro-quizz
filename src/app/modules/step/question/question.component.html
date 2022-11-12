@@ -1,5 +1,5 @@
 <ng-container *ngFor="let question of allQuestions; let i = index">
-  <div *ngIf="i === questionIndex">
+  <div *ngIf="i === questionIndex" @fadeIn @fadeOut>
     <app-text-box [label]="question.title"></app-text-box>
 
     <ul>

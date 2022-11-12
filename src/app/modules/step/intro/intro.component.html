@@ -1,0 +1,6 @@
+<ng-container *ngFor="let text of description; let i = index">
+  <div *ngIf="i === descriptionIndex" (click)="continue()">
+    <h1>{{ text }}</h1>
+    <p class="arrow-down animate-pulse"></p>
+  </div>
+</ng-container>

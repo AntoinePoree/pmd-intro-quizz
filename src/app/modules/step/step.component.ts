@@ -18,7 +18,7 @@ export class StepComponent implements OnInit {
   ngOnInit() {}
 
   passedToNextStep(event: IScore[]) {
-    console.log(event);
+    this.stepsService.setResult(event);
     this.stepsService.changeStep(Steps.Result);
   }
 }

@@ -1,5 +1,7 @@
 <div class="container" [ngSwitch]="currentStep$ | async">
-  <div *ngSwitchCase="Steps.Intro">{{ currentStep$ | async }}</div>
+  <div *ngSwitchCase="Steps.Intro">
+    <app-intro></app-intro>
+  </div>
   <div *ngSwitchCase="Steps.Question">
     <app-question
       (passedToNextStep)="passedToNextStep($event)"

@@ -1,6 +1,12 @@
 main {
   position: fixed;
   width: 100%;
+  z-index: 2;
+}
+
+.intro {
+  background-color: black;
+  z-index: 1;
 }
 
 $time: 360s;

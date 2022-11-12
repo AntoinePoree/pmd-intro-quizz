@@ -16,7 +16,7 @@ $black: 900;
 // Font size
 $font-xs: 12px;
 $font-sm: 14px;
-$primary-fs: 16px;
+$primary-fs: 1.2rem;
 $font-md: 18px;
 $font-lg: 20px;
 
@@ -24,6 +24,7 @@ $font-lg: 20px;
   font-family: $primary_font;
   font-size: $primary-fs;
   font-weight: $regular;
+  user-select: none;
 }
 body {
   font-family: $primary_font;
