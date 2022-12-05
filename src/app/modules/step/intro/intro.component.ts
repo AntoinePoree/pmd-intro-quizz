@@ -23,7 +23,7 @@ export class IntroComponent implements OnInit {
     this.description = this.getDescriptions(this.storeService.basics);
   }
 
-  getDescriptions(description: IBasic) {
+  getDescriptions(description: IBasic): string[] {
     const descriptions = [];
     const sentences = description.starter.split('.');
 

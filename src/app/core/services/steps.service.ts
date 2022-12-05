@@ -36,6 +36,12 @@ export class StepsService {
     const pkm = this.storeService.natureToPokemon[highest.nature];
 
     this._nature.next(highest.nature);
-    this._pokemon.next(pkm);
+    this._pokemon.next(this.transformToEnglishFormat(pkm));
+  }
+
+  private transformToEnglishFormat(pkm: string): string {
+    console.log(pkm);
+
+    return pkm
   }
 }

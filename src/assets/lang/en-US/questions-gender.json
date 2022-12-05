@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "title": "Comment vous définissez vous ?",
+    "responses": [
+      {
+        "response": "Masculin.",
+        "scores": [],
+        "id": 0
+      },
+      {
+        "response": "Féminin.",
+        "scores": [],
+        "id": 1
+      },
+      {
+        "response": "Ne se détermine pas.",
+        "scores": [],
+        "id": 2
+      }
+    ]
+  }
+]

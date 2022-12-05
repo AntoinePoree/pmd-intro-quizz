@@ -4,6 +4,10 @@ import { IQuestion } from './core/models/question';
 import { StoreService } from './core/services/store.service';
 import { StepsService } from './core/services/steps.service';
 import { transition, style, animate, trigger } from '@angular/animations';
+import { getLanguage } from './shared/utils/utils';
+import { environment } from 'src/environments/environment';
+import { Observable } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 
 const enterTransition = transition(':enter', [
   style({
@@ -41,6 +45,7 @@ const fadeOut = trigger('fadeOut', [leaveTrans]);
 })
 export class AppComponent implements OnInit {
   questions: IQuestion[] = [];
+  questionsGender: IQuestion[] = [];
   natures: any[] = [];
   natureToPokemon: any[] = [];
   natureDescription: any[] = [];
@@ -51,14 +56,16 @@ export class AppComponent implements OnInit {
 
   constructor(
     public storeService: StoreService,
-    public stepsService: StepsService
+    public stepsService: StepsService,
+    private http: HttpClient
   ) {}
 
   ngOnInit(): void {
     this.storeService
       .getAndSetAll()
       .then((data) => {
-        this.questions = this.shuffleAndCut(data.questions);
+        this.questionsGender = data.questionsGender;
+        this.questions = this.addGenderQuestion(this.shuffleAndCut(data.questions));
         this.natures = data.natures;
         this.natureToPokemon = data.natureToPokemon;
         this.natureDescription = data.natureDescription;
@@ -67,11 +74,17 @@ export class AppComponent implements OnInit {
       .catch((err) => console.log(err));
   }
 
-  shuffleAndCut(array: IQuestion[]): IQuestion[] {
+  private shuffleAndCut(array: IQuestion[]): IQuestion[] {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
     }
     return array.splice(0, 10);
   }
+
+  private addGenderQuestion(questions: IQuestion[]): IQuestion[] {
+    questions.push(this.questionsGender[0])
+    return  questions
+  }
+
 }

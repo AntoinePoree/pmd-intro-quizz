@@ -1,4 +1,10 @@
-<p>final-step works!</p>
-{{ nature$ | async }}
 {{ pokemon$ | async }}
-<p>{{ description }}</p>
+
+<ng-container *ngFor="let text of description; let i = index">
+  <div *ngIf="i === descriptionIndex" @fadeIn>
+{{descriptionIndex}};
+index= {{i}}
+
+    <app-text-box [label]="text" [arrow]="true"></app-text-box>
+  </div>
+</ng-container>

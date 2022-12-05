@@ -2,7 +2,7 @@
   <div class="background intro"></div>
 </section>
 
-<section *ngIf="(currentStep$ | async) === Steps.Question" @fadeIn>
+<section *ngIf="(currentStep$ | async) === Steps.Question || Steps.Result" @fadeIn>
   <div class="background infinite-scroll-right"></div>
   <div class="background infinite-scroll-left"></div>
 </section>
